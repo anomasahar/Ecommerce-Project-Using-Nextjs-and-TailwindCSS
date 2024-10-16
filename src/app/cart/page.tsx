@@ -77,7 +77,7 @@ export default function Cart() {
                                                     </button>
                                                     <input
                                                         type="number"
-                                                        className="w-12 text-center text-xl font-medium border-t border-b border-gray-300 mx-2 text-gray-700"
+                                                        className="w-12 text-center text-xl font-medium border-gray-300 mx-2 text-gray-700"
                                                         value={item.quantity}
                                                         readOnly
                                                     />
