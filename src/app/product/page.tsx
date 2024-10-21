@@ -23,7 +23,7 @@ export default async function Home() {
       
 
       {/* Pass products to the client-side component */}
-      <div className="mt-8 px-4">
+      <div className="mt-8 px-2">
         <FilterableProduct products={products} />
       </div>
     </>

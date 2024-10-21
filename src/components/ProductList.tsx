@@ -10,7 +10,7 @@ interface ProductListProps {
 
 const ProductList = ({ products, title }: ProductListProps) => {
   return (
-    <section className="container mx-auto py-8">
+    <section className="container mx-auto py-8 px-4 sm:px-6 md:px-8">
         <h2 className="text-4xl font-bold text-center mb-10">{title}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6"> 
             {products.map((product) => (

@@ -28,7 +28,7 @@ export default function Navbar(){
 
         <div className="absolute left-1/2 transform -translate-x-1/2">
           <Link href="/" passHref>
-            <h1 className="text-white text-3xl font-bold cursor-pointer">
+            <h1 className="text-white text-xl font-bold cursor-pointer md:text-3xl">
               MIDNIGHT ESSENCE
             </h1>
           </Link>

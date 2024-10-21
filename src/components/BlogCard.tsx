@@ -7,7 +7,7 @@ import AddToCartButton from "./AddToCartButton";
 export default function BlogCard({product}:{product:Product}) {
   return (
     
-    <section className="flex flex-col justify-between h-[480px] rounded bg-light/90 dark:bg-dark/40 shadow-md shadow-gray-300 dark:shadow-black/80 group hover:scale-105 transition-transform ease-out duration-700 px-4 sm:px-0">
+    <section className="flex flex-col justify-between h-[480px] rounded bg-light/90 dark:bg-dark/40 shadow-md shadow-gray-300 dark:shadow-black/80 group hover:scale-105 transition-transform ease-out duration-700 px-2 sm:px-0">
         <div className="relative max-h-76 flex-1">
           <Link href={`/product/${product.slug}`} >
             <Image
