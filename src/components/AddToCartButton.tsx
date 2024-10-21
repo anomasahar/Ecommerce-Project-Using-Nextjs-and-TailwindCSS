@@ -23,7 +23,7 @@ export default function AddToCartButton({ product }: AddToCartButtonProps) {
   return (
     <div>
       <button
-        className="mt-6 sm:mt-4 px-6 py-2 sm:py-2 text-lg sm:text-sm font-semibold rounded border border-[#613502] hover:bg-[#613502] hover:text-white transition duration-300 ease-in-out" 
+        className="mt-4 sm:mt-2 px-4 sm:px-2 py-2 sm:py-1 text-lg sm:text-sm font-semibold rounded border border-[#613502] hover:bg-[#613502] hover:text-white transition duration-300 ease-in-out"
         onClick={() => handleAddToCart(product)}>
         ADD TO CART
       </button>
