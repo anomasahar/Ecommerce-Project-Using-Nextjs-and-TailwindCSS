@@ -19,7 +19,7 @@ export default function BlogCard({product}:{product:Product}) {
           </Link>
         </div>
         
-        <div className="flex flex-col justify-between gap-y-4  p-4">
+        <div className="flex flex-col justify-between gap-y-1 sm:gap-y-1 p-4">
             <h2 className="text-lg font-semibold line-clamp-2 text-dark dark:text-light leading-tight mb-2">
             {product.title}
             </h2>
