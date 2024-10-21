@@ -68,21 +68,21 @@ export default function ContactSection() {
                 <FaMapMarkerAlt className="text-[#613502] mt-1" />
                 <div>
                   <h3 className="text-sm font-bold text-gray-600 uppercase">Address</h3>
-                  <p className="text-gray-800">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                  <p className="text-gray-800">Islamabad, Pakistan</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <FaPhoneAlt className="text-[#613502] mt-1" />
                 <div>
                   <h3 className="text-sm font-bold text-gray-600 uppercase">Phone</h3>
-                  <p className="text-gray-800">(303) 555-0105</p>
+                  <p className="text-gray-800">(+92) XX-XXXXXXX</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <FaEnvelope className="text-[#613502] mt-1" />
                 <div>
                   <h3 className="text-sm font-bold text-gray-600 uppercase">Email</h3>
-                  <p className="text-gray-800">mail@example.com</p>
+                  <p className="text-gray-800">support@midnightessence.com</p>
                 </div>
               </div>
             </div>

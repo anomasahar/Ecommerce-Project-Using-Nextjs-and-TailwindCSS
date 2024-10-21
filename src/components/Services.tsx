@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sampleImage from "@/assets/white.jpeg"; 
+import sampleImage from "@/assets/service.jpeg"; 
 
 export default function Services() {
   return (

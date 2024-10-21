@@ -4,12 +4,12 @@ import ProductList from "@/components/ProductList";
 export const revalidate = 10;
 
 export default async function NewArrivals() {
-  const query = `*[_type=='product'] | order(_createdAt desc)[0...10]{
+  const query = `*[_type=='product'] | order(_createdAt desc, updatedAt desc)[0...10]{
     title, description, image, price, "slug": slug.current
   }`;
   
   const products = await client.fetch(query);
-  // console.log('Fetched Products:', products);
+  console.log('Fetched Products:', products);
 
   return(
     <>
