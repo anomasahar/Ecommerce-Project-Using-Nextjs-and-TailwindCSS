@@ -9,7 +9,7 @@ export default async function NewArrivals() {
   }`;
   
   const products = await client.fetch(query);
-  console.log('Fetched Products:', products);
+  // console.log('Fetched Products:', products);
 
   return(
     <>

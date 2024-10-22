@@ -4,7 +4,7 @@ import main from "@/assets/main.jpeg";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center  bg-[#703d03] overflow-hidden"> 
+    <main className="min-h-screen flex items-center justify-center  bg-gradient-to-r from-[#0f0528] via-[#3a0ca3] to-[#5e17eb] overflow-hidden"> 
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center py-8 gap-6 md:gap-12">
         
         {/* Text Section */}
