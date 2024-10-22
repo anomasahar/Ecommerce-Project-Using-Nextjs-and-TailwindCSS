@@ -14,7 +14,7 @@ export default async function page({params:{slug}}:{params:{slug:string}}) {
 
   return (
     <div>
-      <article className="container mx-auto p-6 mt-5 mb-5 flex flex-col lg:flex-row lg:gap-12">
+      <article className="container mx-auto p-6 mt-20 mb-5 flex flex-col lg:flex-row lg:gap-12">
       <div className="relative">
         <Image
           src={urlFor(product.image).url()}

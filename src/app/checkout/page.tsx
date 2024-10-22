@@ -48,9 +48,9 @@ export default function Checkout() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-10">
+    <div className="min-h-screen bg-gray-100 py-10 mt-10">
       <div className="max-w-4xl mx-auto bg-white p-6 shadow-lg">
-        <h1 className="text-3xl font-bold text-green-900 mb-6">Checkout</h1>
+        <h1 className="text-3xl font-bold text-black mb-6">Checkout</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Customer information</h2>

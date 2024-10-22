@@ -4,22 +4,22 @@ import main from "@/assets/main.jpeg";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center  bg-gradient-to-r from-[#0f0528] via-[#3a0ca3] to-[#5e17eb] overflow-hidden"> 
+    <main className="min-h-screen flex items-center justify-center  bg-[#f8dbba] overflow-hidden"> 
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center py-8 gap-6 md:gap-12">
         
         {/* Text Section */}
-        <div className="hidden md:flex flex-col text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-tight text-center md:text-left px-4 md:px-0">
+        <div className="hidden md:flex flex-col text-5xl sm:text-6xl md:text-8xl font-extrabold text-black leading-tight text-center md:text-left px-4 md:px-0">
           <span className="block">FA</span>
           <span className="block">SHI</span>
           <span className="block">ON</span>
         </div>
         
         {/* Description Section */}
-        <div className="text-white max-w-lg px-6 sm:px-8 md:px-0 text-center md:text-left w-full md:w-auto">
-          <h1 className="text-white font-bold font-sans text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide mb-4">
+        <div className="text-black max-w-lg px-6 sm:px-8 md:px-0 text-center md:text-left w-full md:w-auto">
+          <h1 className="text-black font-bold font-sans text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide mb-4">
             Welcome to
           </h1>
-          <span className="font-bold font-sans text-3xl sm:text-4xl md:text-5xl relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500 whitespace-nowrap">
+          <span className="font-bold font-sans text-3xl sm:text-4xl md:text-5xl relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-[#684524] to-[#d18a5b] whitespace-nowrap">
             Midnight Essence
           </span>
           <p className="text-lg font-semibold underline mt-2 mb-4 md:text-xl">
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Image Section */}
-        <div className="flex-shrink-0 w-full max-w-xs md:max-w-md mx-auto md:mx-0">
+        <div className="flex-shrink-0 w-full max-w-xs md:max-w-md mx-auto md:mx-0 mt-14">
           <Image
             src={main}
             alt="Handcrafted Bag"

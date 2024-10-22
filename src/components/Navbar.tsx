@@ -7,7 +7,7 @@ import { CartSheet } from '@/components/ShoppingCart';
 export default function Navbar(){
   return(
     <>
-    <div className="w-full h-18 bg-[#703d03] fixed top-0 left-0 z-50">
+    <div className="w-full h-18 bg-[#703d03] fixed top-0 left-0 z-50 ">
       <nav className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
         <ul className="hidden sm:flex items-center gap-5">
           <li className="font-bold text-white">
@@ -40,6 +40,8 @@ export default function Navbar(){
 
       </nav>
     </div>
+
+    <div className="h-18" />
 
     </>
   );

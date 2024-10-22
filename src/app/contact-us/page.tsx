@@ -58,7 +58,7 @@ export default function ContactSection() {
   };
 
   return (
-    <div className="min-h-screen bg-white py-10">
+    <div className="min-h-screen bg-white py-10 mt-10">
       <div className="max-w-4xl mx-auto bg-white p-6 shadow-lg">
         <h1 className="text-3xl font-bold text-black mb-6 text-center">Contact Us</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

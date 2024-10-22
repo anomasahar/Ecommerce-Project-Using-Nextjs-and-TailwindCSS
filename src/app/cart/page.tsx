@@ -19,7 +19,7 @@ export default function Cart() {
     const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
     return (
-        <div className="container max-w-7xl mx-auto py-12 px-4">
+        <div className="container max-w-7xl mx-auto py-12 px-4 mt-10">
             <h1 className="text-3xl md:text-4xl font-bold text-center mb-6">Cart</h1>
             {cartItems.length === 0 ? (
                 <p className="text-center text-gray-600">Your cart is empty.</p>

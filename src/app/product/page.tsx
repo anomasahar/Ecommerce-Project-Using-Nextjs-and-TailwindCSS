@@ -14,8 +14,8 @@ export default async function Home() {
 
   return (
     <>
-      <div className="relative w-full mt-10">
-        <p className="text-center ml-10 font-semibold text-xl underline underline-offset-8 decoration-[1px]">
+      <div className="relative w-full mt-28 sm:mt-20">
+        <p className="text-center font-semibold text-lg sm:text-xl underline underline-offset-4 sm:underline-offset-8 decoration-[1px]">
           Get Your Favourite Bag
         </p>
       </div>
