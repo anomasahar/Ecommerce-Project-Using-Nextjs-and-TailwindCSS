@@ -16,7 +16,7 @@ export default function Home() {
         
         {/* Description Section */}
         <div className="text-black max-w-lg px-6 sm:px-8 md:px-0 text-center md:text-left w-full md:w-auto">
-          <h1 className="text-black font-bold font-sans text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide mb-4 mt-10 sm:mt-4">
+          <h1 className="text-black font-bold font-sans text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide mb-4 mt-20 sm:mt-4">
             Welcome to
           </h1>
           <span className="font-bold font-sans text-3xl sm:text-4xl md:text-5xl relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-[#684524] to-[#d18a5b] whitespace-nowrap">
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Image Section */}
-        <div className="flex-shrink-0 w-full max-w-xs md:max-w-md mx-auto md:mx-0 mt-14">
+        <div className="flex-shrink-0 w-full max-w-xs md:max-w-md mx-auto md:mx-0 mt-2 md:mt-14">
           <Image
             src={main}
             alt="Handcrafted Bag"
